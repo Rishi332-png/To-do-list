@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> <!--this works before inside head only. cant be put inside thte innerHTML as it will be ignored by the browser now the i element delete icon code will
+                                                                                                                 be used in the innerHTML as it wouldnt have worked if this link would had not been written-->
+</head>
+<body>
+<div class="container">
+       <div id="newtask">
+          <input type="text" placeholder="Task to be done...">
+           
+           <button id="push">Add</button>
+       </div>
+          <div id="tasks"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
