@@ -163,3 +163,8 @@ document.querySelector('#push').onclick =function input(){
  document.querySelector('#newtask input');
         value ="";
 }
+
+
+
+______________________________________________________________________________________________________________________________
+[JavaScript explanation] => https://youtu.be/6Ugq8wFYOuM       (detailed explaination of the code)
