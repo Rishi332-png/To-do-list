@@ -33,6 +33,6 @@ document.querySelector('#push').onclick =function input(){
        
 }
   //Clear the input section after add button press
- document.querySelector('#newtask input');
-        value ="";
+ document.querySelector('#newtask input').value ="";
+
 }
